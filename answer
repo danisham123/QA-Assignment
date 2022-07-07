@@ -1,0 +1,27 @@
+1- You are working in company XYZ required you to develop ticketing system for Cinema, the owner of Cinema is focusing on two things: 
+a. Security system for purchasing tickets using Credit Cards. 
+b. The performance of booking tickets.
+
+Write scenarios for each requirement to get your client signature. 
+
+a. A customer purchases ticket by inserting credit cards into the machine under normal operation; the security system will validate the customer’s identity within 20 seconds 
+
+b. When customers book tickets under normal operation, all these bookings need to initiate not more than 200 transactions per booking and are processed with an average latency of 5 seconds. 
+
+2- You are working in the governmental sector and your boss required you to develop architecture to remove the overhead of official stamping for the documents without losing security. 
+
+Propose a proper architecture tactic to achieve this feature. 
+
+The developed architecture should be able to resist attacks. This can be done by authenticateuser, and only allow authorized users and limit the access of the official stamping. This is to maintain data confidentiality and maintain integrity. To achieve the goal of the architecture, wecan apply hash function on the official stamping. Hash function is applied to every official stamping so that it is unique. 
+
+3- You are working in a starting company with a limited budget and your boss requires you to suggest some tactics to reduce the maintainability cost of the software. 
+Propose three tactics for this objective. 
+
+Maintainability cost mostly incurred by the change request by either developer or customer. Hence to reduce the cost we shall increase the modifiability of our product.
+
+A) reduce size of a module 
+B) Increase cohesion and reduce coupling 
+C) Defer binding between components  
+
+Submit your answers in your github host.  
+We will randomly pick 5 students next session to present their answers.
